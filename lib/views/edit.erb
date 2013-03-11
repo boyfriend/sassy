@@ -1,0 +1,8 @@
+<h1>Editing <%= params[:stylesheet] %></h1>
+
+<form action="/save" method="post">
+  <input type="hidden" name="stylesheet[name]" id="stylesheet_name" value="<%= params[:stylesheet] %>">
+  <p><label for="stylesheet_contents">SCSS</label></p>
+  <p><textarea name="stylesheet[contents]" id="stylesheet_contents"><%= stylesheet(params[:stylesheet]) %></textarea></p>
+  <p><input type="submit" value="SAVE"></p>
+</form>

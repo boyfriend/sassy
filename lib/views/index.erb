@@ -1,0 +1,7 @@
+<h1>Welcome to Sassy</h1>
+
+<ul>
+  <% stylesheets.each do |stylesheet| %>
+    <li><a href="/edit/<%= stylesheet %>"><%= stylesheet %></li>
+  <% end %>
+</ul>
