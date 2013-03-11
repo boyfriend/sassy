@@ -1,0 +1,6 @@
+# SASSY
+## SASS + SINATRA
+
+Sassy is a SCSS store and rendered designed to run on Heroku-style hosting.
+
+Setup and more information to come.
